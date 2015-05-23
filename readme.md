@@ -1,6 +1,6 @@
 # Запуск
 
-* npm run server  //SPDY 3.1
+* npm run server
 
 # как начинал проект
 
@@ -11,4 +11,4 @@
 
 # TODO
 
-* use node-http2 // не работатет с google-chrome
+* попробовать node-http2 // не работатет с google-chrome
