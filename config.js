@@ -22,6 +22,7 @@ System.config({
     "core-js": "npm:core-js@0.9.11",
     "css": "github:systemjs/plugin-css@0.1.11",
     "immutable": "npm:immutable@3.7.3",
+    "immutablediff": "npm:immutablediff@0.4.2",
     "js-atom": "npm:js-atom@0.1.0",
     "react": "npm:react@0.13.3",
     "react-bootstrap": "npm:react-bootstrap@0.22.6",
@@ -131,6 +132,9 @@ System.config({
     },
     "npm:https-browserify@0.0.0": {
       "http": "github:jspm/nodelibs-http@1.7.1"
+    },
+    "npm:immutablediff@0.4.2": {
+      "immutable": "npm:immutable@3.7.3"
     },
     "npm:inherits@2.0.1": {
       "util": "github:jspm/nodelibs-util@0.1.0"
