@@ -23,7 +23,6 @@ System.config({
     "css": "github:systemjs/plugin-css@0.1.11",
     "immutable": "npm:immutable@3.7.3",
     "js-atom": "npm:js-atom@0.1.0",
-    "pubsub-js": "npm:pubsub-js@1.5.2",
     "react": "npm:react@0.14.0-alpha2",
     "react-bootstrap": "npm:react-bootstrap@0.22.6",
     "github:jspm/nodelibs-assert@0.1.0": {
@@ -148,9 +147,6 @@ System.config({
       "os": "github:jspm/nodelibs-os@0.1.0"
     },
     "npm:path-browserify@0.0.0": {
-      "process": "github:jspm/nodelibs-process@0.1.1"
-    },
-    "npm:pubsub-js@1.5.2": {
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
     "npm:punycode@1.3.2": {
