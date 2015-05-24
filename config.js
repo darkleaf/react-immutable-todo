@@ -23,7 +23,7 @@ System.config({
     "css": "github:systemjs/plugin-css@0.1.11",
     "immutable": "npm:immutable@3.7.3",
     "js-atom": "npm:js-atom@0.1.0",
-    "react": "npm:react@0.14.0-alpha2",
+    "react": "npm:react@0.13.3",
     "react-bootstrap": "npm:react-bootstrap@0.22.6",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
@@ -155,9 +155,9 @@ System.config({
     "npm:react-bootstrap@0.22.6": {
       "classnames": "npm:classnames@2.1.1",
       "process": "github:jspm/nodelibs-process@0.1.1",
-      "react": "npm:react@0.14.0-alpha2"
+      "react": "npm:react@0.13.3"
     },
-    "npm:react@0.14.0-alpha2": {
+    "npm:react@0.13.3": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "envify": "npm:envify@3.4.0",
       "process": "github:jspm/nodelibs-process@0.1.1"
