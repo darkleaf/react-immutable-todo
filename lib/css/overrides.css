@@ -1,0 +1,3 @@
+button:active, .button:active, button:focus, .button:focus {
+    outline:none !important;
+}

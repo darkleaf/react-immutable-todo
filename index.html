@@ -21,9 +21,9 @@
             var systemLocate = System.locate;
             System.locate = function(load) {
                 return Promise.resolve(systemLocate.call(this, load)).then(function(address) {
-                    if (address.search('jspm_packages') != -1) {
-                        return address;
-                    }
+                    if (address.search('jspm_packages') != -1) return address;
+                    if (address.search('.css') != -1) return address;
+
                     return address + '?bust=' + Date.now();
                 });
             };
