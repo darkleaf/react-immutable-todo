@@ -1,3 +1,5 @@
+По мотивам доклада [Функциональное программрование в браузере](http://tonsky.me/talks/2015-frontendconf/)
+
 # Запуск
 
 * npm run server
@@ -11,4 +13,4 @@
 
 # TODO
 
-* попробовать node-http2 // не работатет с google-chrome
+* разобраться с node-http2 и cache в google-chrome
